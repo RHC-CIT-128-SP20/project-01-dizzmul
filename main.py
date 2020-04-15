@@ -21,6 +21,8 @@ guns9x39 = ()
 guns12x70 = ()
 guns20x70 = ()
 
+maps = ("the lab", "interchange", "woods", "customs", "factory", "reserve", "shoreline")
+
 
 mapName = lower.(input("Which map are you playing on?"))
 budget = lower.(input("What is your budget? Please enter one of the following: ""extremely low"", ""low"", ""medium"", ""high"", or ""extremely high""))
