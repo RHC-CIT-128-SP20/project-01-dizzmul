@@ -4,6 +4,11 @@
 
 ## Student Info
 
+* Alexander Rodriguez
+* 37902
+* Spring 2020
+
+
 Add your Name, CRN, and Semester Year here using unordered bullets in Markdown.
 
 ## Directions
@@ -14,7 +19,7 @@ As your project is unique, you will be required to help craft your grading scale
 
 ## Program Description
 
-Please enter the description of your individual program here.
+This program will help you select which ammo type you should be using within the game Escape From Tarkov. It will determine which ammunition you will most likely need given the map, the expected armor value of your opponents, the gun you're using, and the price of the ammo. It will also factor in how much money you have overall and help you decide which ammo would be best on a budget or which will be better to buy if you have a lot of money to spend
 
 ## Rubric / Grading Scale
 
