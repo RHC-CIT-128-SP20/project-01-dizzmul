@@ -9,13 +9,23 @@
 * Spring 2020
 
 
-Add your Name, CRN, and Semester Year here using unordered bullets in Markdown.
 
 ## Directions
 
-In this project, you decide your individual programming adventure in consolation with me. You will need to design a program that utilizes the elements learned in class. This will be a challenge as there will be no demo versions and if you want unit tests, you will need to design them.
+Answer the questions being asked by the program using approproiate information.
 
-As your project is unique, you will be required to help craft your grading scale as part of the program description. This will be completed as a part of Draft 1.
+The first question will ask you what map you are playing on. The possible answers are "The Lab", "interchange", "Woods", "Customs", "Factory", "Reserve", "Shoreline". The Lab and Reserve are riskier ventures than the other maps so the program will be more likely to suggest more expensive ammo if you go there.
+
+The next question will ask about your budget. Better ammo costs more money, so the higher you say your budget is then the more likely the program will suggest top-notch ammunition.
+
+After that you will be asked which type of gun you will be using. All of the available guns and their cartridge size are listed here: https://escapefromtarkov.gamepedia.com/Weapons
+Your response is not case-sensitive but you do need to include all hyphens and spaces exactly as they are on that list. The program will use this info to determine which size ammo to suggest. For example if you select a 9x18mm gun such as the PP-91, the program
+will then-on only recommend 9x18mm ammo.
+
+Lastly, you will have to indicate whether or not you are focusing on killing "scavs." Scavs are non-player characters within Tarkov that will shoot you on site. Their guns aren't typically all that great and neither is their armor. They aren't too much of a threat compared to real players who are also roaming around, so if your focus is on killing them then the program will be far more likely to recommend you cheaper ammo.
+
+This ammo chart, while not totally comprehensive of ALL the guns and ammo types, can be used to cross-reference this program to see if it's recommending the appropriate ammo. https://i.redd.it/eawzvoj4blc41.png
+
 
 ## Program Description
 
@@ -24,11 +34,12 @@ This program will help you select which ammo type you should be using within the
 ## Rubric / Grading Scale
 
 * Working program per the above program description
-  * Sub Grading Description 1 (X pt)
-  * Sub Grading Description 2 (X pt)
-  * Sub Grading Description 3 (X pt)
-  * Sub Grading Description 4 (X pt)
-  * Sub Grading Description 5 (X pt)
+  * Input checks to ensure user does not enter random data(20 pt)
+  * Non-random data should be properly digested by the program as expected(10 pt)
+  * Comments that describe different sections of the code (5 pt)
+  * Program suggests an ammo type that actually fits the gun(i.e program doesnt suggest 9x18mm rounds for a 5.56x45mm gun, only suggests 9x18 rounds) (20 pt)
+  * Program accuarately accounts for the user's budget and situation when suggesting ammo (20 pt)
+  * Code is easy to read and understand (5 pt)
 * Turn in Drafts Updates in Canvas
   * Draft 1 (5pt)
   * Draft 2 (5pt)
