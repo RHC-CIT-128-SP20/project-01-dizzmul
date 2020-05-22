@@ -26,6 +26,8 @@ Lastly, you will have to indicate whether or not you are focusing on killing "sc
 
 This ammo chart, while not totally comprehensive of ALL the guns and ammo types, can be used to cross-reference this program to see if it's recommending the appropriate ammo. https://i.redd.it/eawzvoj4blc41.png
 
+Video of the program in action: https://www.youtube.com/watch?v=bUsBNNBUUsA
+
 
 ## Program Description
 
@@ -39,8 +41,7 @@ This program will help you select which ammo type you should be using within the
   * Comments that describe different sections of the code (5 pt)
   * Program suggests an ammo type that actually fits the gun(i.e program doesnt suggest 9x18mm rounds for a 5.56x45mm gun, only suggests 9x18 rounds) (20 pt)
   * Program accuarately accounts for the user's budget and situation when suggesting ammo (20 pt)
-  * Code is easy to read and understand (5 pt)
-* Turn in Drafts Updates in Canvas
+  * Code is easy to read and understand
   * Draft 1 (5pt)
   * Draft 2 (5pt)
   * Draft 3 (5pt)
